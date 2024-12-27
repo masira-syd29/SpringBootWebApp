@@ -1,0 +1,110 @@
+/* Coffee-themed CSS for Maseera */
+/* General Styling */
+body {
+    background-color: #f7e3d3; /* Coffee cream color */
+    font-family: 'Arial', sans-serif;
+    color: #3c2a21; /* Coffee bean color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #6f4e37; /* Dark coffee color */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #3c2a21;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #3c2a21; /* Coffee bean color */
+    margin-top: 10px;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff; /* White coffee mug background */
+    border: 2px solid #6f4e37; /* Dark coffee color */
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #6f4e37; /* Dark coffee text */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #6f4e37;
+    border-radius: 5px;
+    background-color: #f9f3ef; /* Latte background */
+    color: #3c2a21;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #a87552; /* Caramel highlight */
+    box-shadow: 0px 0px 5px rgba(167, 117, 82, 0.5);
+}
+
+input[type="submit"] {
+    background-color: #6f4e37; /* Coffee button */
+    color: #fff; /* White text */
+    font-size: 1rem;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #a87552; /* Light caramel color */
+}
+
+/* Coffee Cup Icon for Forms */
+form {
+    position: relative;
+}
+
+form::before {
+    content: '☕'; /* Coffee cup icon */
+    font-size: 3rem;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 24px);
+    color: #6f4e37;
+}
+
+/* Styling for Result Page */
+p {
+    background-color: #fff5e1; /* Light latte background */
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #6f4e37;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+p::before {
+    content: "📝 "; /* Add a note icon before the message */
+    font-size: 1.2rem;
+    color: #6f4e37;
+}
